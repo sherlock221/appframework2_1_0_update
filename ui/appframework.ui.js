@@ -1784,7 +1784,7 @@
 
             anchor = anchor || document.createElement("a");
             xmlhttp.onreadystatechange = function() {
-                if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                if (xmlhttp.readyState === 4 && (xmlhttp.status === 200 || xmlhttp.status === 0)) {
                     this.doingTransition = false;
                     var refreshFunction;
                     var doReturn = false;

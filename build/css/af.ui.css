@@ -1,4 +1,4 @@
-/*! intel-appframework - v2.1.0 - 2014-05-16 */
+/*! intel-appframework - v2.1.0 - 2014-05-21 */
 
 /**********************************************************
     GENERAL UI ELEMENTS
@@ -1548,7 +1548,7 @@ body {
  hover : #111
 
  */
-
+  
 #afui.android {
 	font:14px  'Roboto',sans-serif;
  	background:#000;

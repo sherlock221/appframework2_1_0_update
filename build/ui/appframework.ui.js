@@ -1,4 +1,4 @@
-/*! intel-appframework - v2.1.0 - 2014-05-16 */
+/*! intel-appframework - v2.1.0 - 2014-05-21 */
 
 /**
  * af.actionsheet - an actionsheet for html5 mobile apps
@@ -5418,7 +5418,7 @@ if (!Date.now)
 
             anchor = anchor || document.createElement("a");
             xmlhttp.onreadystatechange = function() {
-                if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+                if (xmlhttp.readyState === 4 && (xmlhttp.status === 200 || xmlhttp.status === 0)) {
                     this.doingTransition = false;
                     var refreshFunction;
                     var doReturn = false;
